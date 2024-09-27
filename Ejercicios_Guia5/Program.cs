@@ -3,12 +3,11 @@
  * Fecha de creación: 09/24/2024
  * Versión: 1.0
  * *************************************************************************************************************
- * Resolver los 5 ejercicios descritos en la Guía Didáctiva #5
- * *************************************************************************************************************
+ * Resolver los 5 ejercicios descritos en la Guía Didáctica #5
+ * -------------------------------------------------------------------------------------------------------------
  */
 
 using System;
-using System.Collections.Generic;
 
 namespace Ejercicios_Guia5
 {
@@ -50,7 +49,12 @@ namespace Ejercicios_Guia5
                         Console.ReadKey();
                         break;
                     case 2:
-                        //Bisiesto();
+                        Console.Clear();
+                        Reservaciones ej2 = new Reservaciones();
+
+                        Console.WriteLine("\nEjercicio 2:");
+                        ej2.ImprimirMenu();
+
                         break;
                     case 3:
                         //CalcularTiempo();

@@ -1,10 +1,11 @@
 ﻿/* 
  * Autor: Joaquín A. Pérez Z.
- * Fecha de creacion: 03/09/2024; Fecha de modificación: 07/09/2024
- * Version: 1.0
- * *****************************************************************************************************
+ * Fecha de creación: 03/09/2024; Fecha de modificación: 07/09/2024
+ * Versión: 1.0
+ * *************************************************************************************************************
  * 10. Escriba un programa que presente un menú para acceder a cada uno de los 9
  *     ejercicios anteriores. El menú debe repetirse hasta seleccionar la opción Salir.
+ * -------------------------------------------------------------------------------------------------------------
  */
 
 using System;

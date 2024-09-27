@@ -11,6 +11,7 @@
  * 5. Conteo basado en contador.
  * 6. Promedio basado en centinela.
  * 7. Número primo basado en bandera.
+ * -------------------------------------------------------------------------------------------------------------
  */
 
 using System;

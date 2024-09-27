@@ -56,19 +56,20 @@ namespace Ejercicios_Guia5
                 Console.Write(output);
             }
 
-            Console.WriteLine('\n' + separador);
-
+            Console.WriteLine('\n' + separador); //imprimir el separador
             for (int j = 0; j < 6; j++)
             {
+                // recorrer todas las filas e imprimir la celda con el numero de la izquierda (centrada)
                 Console.Write(new string(' ', max_ancho/2) + $"{j + 1}" + new string(' ', max_ancho/2));
                 for (int k = 0; k < 6; k++)
                 {
+                    // imprimir los numeros de la matriz centrados en las celdas
                     string output = $"| {this.cuenta[j, k].ToString().PadLeft(max_ancho)} ";
                     if (k == 5) output += "|";
                     Console.Write(output);
                 }
 
-                Console.WriteLine('\n' + separador);
+                Console.WriteLine('\n' + separador); // imprimir el separador para cerrar la tabla
             }
         }
 

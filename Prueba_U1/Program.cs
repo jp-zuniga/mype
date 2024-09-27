@@ -6,6 +6,7 @@
  * Se requiere un programa que lea ternas, y que por cada terna que el usuario ingrese (x,y,z),
  * se genere una serie Fibonacci que empieze con los términos x, y. Se debe generar la serie hasta el término z.
  * El programa deberá aceptar las ternas que el usuario digite hasta que ingrese 0,0,0.
+ * -------------------------------------------------------------------------------------------------------------
  */
 
 using System.Collections.Generic;
