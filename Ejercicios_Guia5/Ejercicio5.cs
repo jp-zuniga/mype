@@ -27,8 +27,8 @@ namespace Ejercicios_Guia5
 {
     internal class Matrices
     {
-        private const int filas = 3;
-        private const int columnas = 3;
+        private const int filas = 6;
+        private const int columnas = 6;
         private int[,] matriz = new int[filas,columnas];
 
         public int[,] LeerMatriz()

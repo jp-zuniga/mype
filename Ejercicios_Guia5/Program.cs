@@ -56,9 +56,7 @@ namespace Ejercicios_Guia5
                         ej2.ImprimirMenu();
 
                         break;
-                    case 3:
-                        //CalcularTiempo();
-                        break;
+                    case 3: break;
                     case 4:
                         Console.Clear();
                         Salarios ej4 = new Salarios();
