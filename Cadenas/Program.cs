@@ -1,4 +1,5 @@
-﻿
+﻿using System;
+
 namespace Cadenas
 {
 	internal class Program
@@ -7,7 +8,11 @@ namespace Cadenas
 		{
 			Filtro test = new Filtro();
 			test.Inicializar();
-			test.FiltrarPaises("Nicaragua");
+			Domicilio busqueda = test.BuscarDomicilio_Objeto(3);
+
+			if (busqueda != null) Console.Write('\n' + busqueda.Pais);
+			else Console.Write("Domicilio no encontrado ;-;");
+			Console.ReadKey();
 		}
 	}
 }

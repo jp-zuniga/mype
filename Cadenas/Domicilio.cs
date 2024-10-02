@@ -3,6 +3,7 @@ namespace Cadenas
 {
 	internal class Domicilio
 	{
+		private int codigo;
 		private string pais;
 		private string departamento;
 		private string municipio;
@@ -34,5 +35,6 @@ namespace Cadenas
 		public string Localidad { get => localidad; set => localidad = value; }
 		public string Calle { get => calle; set => calle = value; }
 		public string NumCasa { get => num_casa; set => num_casa = value; }
+		public int Codigo { get => codigo; set => codigo = value; }
 	}
 }
